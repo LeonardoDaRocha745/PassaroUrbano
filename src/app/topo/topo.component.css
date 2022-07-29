@@ -1,0 +1,28 @@
+.menu {
+    background: #383c44;
+  
+}
+
+.nav-link {
+    color: #5d6066;
+}
+
+.nav-link:hover{
+    color: #FFF
+}
+
+
+
+.banner img {
+    width: 100%;
+    height: 300px
+}
+
+.active {
+    color: #FFF 
+}
+.linkjogo{
+text-decoration: none;
+ color: #000;
+
+}

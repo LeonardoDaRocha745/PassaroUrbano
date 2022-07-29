@@ -1,0 +1,55 @@
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+    <div class="container">
+        
+            <div class="col-md-2" >
+              <a routerLink=""  class="navbar-brand">
+                <img  src="/assets/logo.png" />
+              </a>
+            </div>
+            <div class="col-md-6" >
+                <input type="text" class="form-control" placeholder="Pesquise por ofertas..."
+                #termoDaPesquisa
+                (keyup)="pesquisa(termoDaPesquisa.value)"
+                >
+                <ul class="list-group" style="position:absolute
+                ">
+                  <li class="list-group-item" *ngFor="let oferta of ofertas | async">
+                    <img style="max-width: 40px;"  [src]="oferta.imagens[0].url" class="img-fluid" alt="">
+                   <a (click)="limpaPesquisa" class="linkjogo"  [routerLink]="['/oferta', oferta.id]"> {{oferta.titulo | descricaoReduzida:12}}</a>
+                  </li>
+                
+                </ul>
+            </div>
+
+            <div class="col-md-2"><a routerLink="/ordem-compra"><img src="/assets/carrinho.png" /></a>
+            </div>    
+       
+
+    </div>
+  </nav>
+
+<!---Deixar o site DARK depois-->
+
+  <div class="menu" >
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="" >Destaques</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/indie" >Indies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="/rpg" >RPG</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="banner">
+    <img src="/assets/banners/img1_.jpg" />
+  </div>
+
+

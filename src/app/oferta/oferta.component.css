@@ -1,0 +1,29 @@
+h1 {
+    color: #555
+}
+
+.oferta {
+    margin-top: 25px
+}
+
+.oferta img {
+    width: 372px;
+    height: 240px;
+}
+
+.thumbnails {
+    margin-top: 10px;
+}
+
+.thumbnails img {
+    width: 124px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.zxc:hover {
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+#btncomprar:hover{
+    transform: scale(1.1);
+}  

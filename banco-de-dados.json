@@ -1,0 +1,546 @@
+{
+  "ofertas": [
+    {
+      "id": 1,
+      "categoria": "Indie",
+      "titulo": "Celeste",
+      "descricao_oferta": "Ajude Madeline a enfrentar seus demônios internos em sua jornada até o topo da Montanha Celeste.",
+      "anunciante": "Extremely OK Games",
+      "valor": 29.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/1/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/1/img4.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoria": "Indie",
+      "titulo": "Hades",
+      "descricao_oferta": "Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo roguelike",
+      "anunciante": "Supergiant Games",
+      "valor": 32.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/2/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img4.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/2/img3.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoria": "Indie",
+      "titulo": "Tunic",
+      "descricao_oferta": "Explore um reino repleto de lendas perdidas, antigos poderes e monstros ferozes em TUNIC.",
+      "anunciante": "TUNIC Team",
+      "valor": 31.9,
+      "destaque": true,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/3/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img4.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img5.jpg"
+        },
+        {
+          "url": "/assets/ofertas/3/img6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoria": "RPG",
+      "titulo": "Chrono Trigger",
+      "descricao_oferta": "Viaje até o passado esquecido, o futuro distante e o fim dos tempos. Começa agora uma grande aventura para salvar o planeta…",
+      "anunciante": "Square Enix",
+      "valor": 31.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/4/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img2.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img3.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img4.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img5.jpg"
+        },
+        {
+          "url": "/assets/ofertas/4/img6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "categoria": "RPG",
+      "titulo": "Trials of Mana",
+      "descricao_oferta": "Trials of Mana é uma versão modernizada do 3º jogo da franquia Mana. O jogo, lançado originalmente no Japão como Seiken Densetsu 3, foi refeito do zero em 3D.",
+      "anunciante": "Square Enix",
+      "valor": 54.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/5/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/5/img2.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "categoria": "RPG",
+      "titulo": "Final Fantasy 7",
+      "descricao_oferta": "Em Midgar, uma cidade controlada pela megacorporação Shinra Inc., o Reator Mako No. 1 foi destruído pelo grupo rebelde AVALANCHE.AVALANCHE foi criado secretamente para iniciar uma rebelião contra a Shinra Inc",
+      "anunciante": "Square Enix",
+      "valor": 19.9,
+      "destaque": false,
+      "imagens": [
+        {
+          "url": "/assets/ofertas/6/img1.jpg"
+        },
+        {
+          "url": "/assets/ofertas/6/img2.jpg"
+        }
+      ]
+    }
+  ],
+  "requisitos": [
+    {
+      "id": 1,
+      "SO": "Windows 7 ",
+      "Processador": "Intel Core i3",
+      "Memoria": "2GB de RAM",
+      "PlacaVideo": "Intel HD 4000",
+      "Armazenamento": "1200MB de espaço disponível"
+    },
+    {
+      "id": 2,
+      "SO": "Windows 7 ",
+      "Processador": "Dual Core 2.4 GHz",
+      "Memoria": "4GB de RAM",
+      "PlacaVideo": "1GB VRAM",
+      "Armazenamento": "15GB de espaço disponível"
+    },
+    {
+      "id": 3,
+      "SO": "Windows 10 ",
+      "Processador": "Intel i5 Quad-Core, 2.7 GHz",
+      "Memoria": "8GB de RAM",
+      "PlacaVideo": "GTX 660 / RX 460",
+      "Armazenamento": "2 GB de espaço disponível"
+    },
+    {
+      "id": 4,
+      "SO": "Windows 7/8/8.1/10 (32bit/64bit)",
+      "Processador": "Intel Core i3",
+      "Memoria": "4GB de RAM",
+      "PlacaVideo": "INTEL HD Graphics 530",
+      "Armazenamento": "2GB de espaço disponível"
+    },
+    {
+      "id": 5,
+      "SO": "Windows® 8.1 / 10 64-bit",
+      "Processador": "AMD A-Series 2.5GHz / Intel® Core™ i3 2.5GHz",
+      "Memoria": "4GB de RAM",
+      "PlacaVideo": "AMD Radeon™ RX 460 / NVIDIA® GeForce® GTX 760",
+      "Armazenamento": "20 GB de espaço disponível"
+    },
+    {
+      "id": 6,
+      "SO": "Microsoft Windows XP/Vista/7 (32/64bits)",
+      "Processador": "2GHz",
+      "Memoria": "1GB de RAM",
+      "PlacaVideo": "Intel HD 4000",
+      "Armazenamento": "3GB de espaço disponível"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": 1,
+      "descricao": "IGN - Celeste is a surprise masterpiece ",
+      "descricao1": "Destructoid - This is an essential gaming experience.",
+      "descricao2": "Eurogamer- [Celeste] is truly a game for everyone."
+    },
+    {
+      "id": 2,
+      "descricao": "IGN - Hades is a one-of-a-kind rogue-lite that does a brilliant job of marrying its fast-paced action with its persistent, progressing story through a vividly reimagined Greek mythological underworld. ",
+      "descricao1": "TheSixthAxis - Hades is one of the best roguelites of all-time.",
+      "descricao2": "Destructoid - It's hard to imagine anyone other than Supergiant pulling off this Herculean feat with such style."
+    },
+    {
+      "id": 3,
+      "descricao": "Papatiku - If you liked Death Door, this is for you",
+      "descricao1": "rpgFanatic - This is the original NES Zelda with some modern Souls-esque touches and a cute fox",
+      "descricao2": "GodBlessUsAll - Simply a Masterpiece in every aspects 11/10"
+    },
+    {
+      "id": 4,
+      "descricao": "Kotaku - …about everything you could want.",
+      "descricao1": "Shacknews - Chrono Trigger purists rejoice...",
+      "descricao2": "Hardcore Gamer - ...becoming the definitive version of Chrono Trigger... "
+    },
+    {
+      "id": 5,
+      "descricao": "MultalityGamer - Um perfeito Remake da serie Mana. Tem que vir mais jogos assim de outras franquias tambem.",
+      "descricao1": "Kenithehated - If you're new to the series, and like action RPGs, just go for it",
+      "descricao2": "Destructoid - If you played the original and misses it, go for it"
+    },
+    {
+      "id": 6,
+      "descricao": "Celio - Sem conversa! O melhor RPG já feito até hoje! ",
+      "descricao1": "Victor - O Melhor jogo de todos os tempos. Historia incrivel, apenas o graficos envelheceram mal, oque não muda nada em minha opinião. Vale cada centavo pago. ",
+      "descricao2": "junisBR - Jogo fantástico"
+    }
+  ],
+  "pedidos": [
+    {
+      "endereco": "sdsdadas",
+      "numero": "dsa",
+      "complemento": "sda",
+      "formaPagamento": "dinheiro",
+      "id": 1
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "b",
+      "formaPagamento": "dinheiro",
+      "id": 2
+    },
+    {
+      "endereco": "ddsaasd",
+      "numero": "sadsda",
+      "complemento": "dassad",
+      "formaPagamento": "dinheiro",
+      "id": 3
+    },
+    {
+      "endereco": "ddsaasd",
+      "numero": "sadsda",
+      "complemento": "dassad",
+      "formaPagamento": "dinheiro",
+      "id": 4
+    },
+    {
+      "endereco": "sdasasd",
+      "numero": "dsad",
+      "complemento": "das",
+      "formaPagamento": "dinheiro",
+      "id": 5
+    },
+    {
+      "endereco": "rrrr",
+      "numero": "r",
+      "complemento": "r",
+      "formaPagamento": "debito",
+      "id": 6
+    },
+    {
+      "endereco": "rrrr",
+      "numero": "r",
+      "complemento": "r",
+      "formaPagamento": "debito",
+      "id": 7
+    },
+    {
+      "endereco": "sdadas",
+      "numero": "da",
+      "complemento": "dsd",
+      "formaPagamento": "debito",
+      "id": 8
+    },
+    {
+      "endereco": "sdasadd",
+      "numero": "dsad",
+      "complemento": "sdad",
+      "formaPagamento": "dinheiro",
+      "id": 9
+    },
+    {
+      "endereco": "zzzz",
+      "numero": "zzz",
+      "complemento": "z",
+      "formaPagamento": "dinheiro",
+      "id": 10
+    },
+    {
+      "endereco": "sdasda",
+      "numero": "sdaasdas",
+      "complemento": "dsasda",
+      "formaPagamento": "dinheiro",
+      "id": 11
+    },
+    {
+      "endereco": "sdasdasda",
+      "numero": "sdasdsda",
+      "complemento": "d",
+      "formaPagamento": "debito",
+      "id": 12
+    },
+    {
+      "endereco": "ssdasda",
+      "numero": "sdasdasda",
+      "complemento": "sdadsa",
+      "formaPagamento": "dinheiro",
+      "id": 13
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "sdd",
+      "formaPagamento": "dinheiro",
+      "id": 14
+    },
+    {
+      "endereco": "dsadassd",
+      "numero": "sdasda",
+      "complemento": "sdasda",
+      "formaPagamento": "debito",
+      "id": 15
+    },
+    {
+      "endereco": "dsadsad",
+      "numero": "sdasad",
+      "complemento": "dsasad",
+      "formaPagamento": "dinheiro",
+      "id": 16
+    },
+    {
+      "endereco": "dddd",
+      "numero": "dd",
+      "complemento": "d",
+      "formaPagamento": "dinheiro",
+      "id": 17
+    },
+    {
+      "endereco": "zzzzz",
+      "numero": "z",
+      "complemento": "z",
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "endereco": "sdadasasd",
+      "numero": "sdasda",
+      "complemento": "dsa",
+      "id": 20
+    },
+    {
+      "endereco": "sdadasda",
+      "numero": "sdasda",
+      "complemento": "d",
+      "id": 21
+    },
+    {
+      "endereco": "Teste",
+      "numero": "Teste",
+      "complemento": "Teste",
+      "id": 22
+    },
+    {
+      "endereco": "222222222",
+      "numero": "22222222",
+      "complemento": "222",
+      "id": 23
+    },
+    {
+      "endereco": "QWWWQEE",
+      "numero": "EWEQQWE",
+      "complemento": "WQWEQ",
+      "id": 24
+    },
+    {
+      "endereco": "ssaad",
+      "numero": "ewq",
+      "complemento": "d",
+      "id": 25
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "b",
+      "id": 26
+    },
+    {
+      "endereco": "zzzzz",
+      "numero": "zzzz",
+      "complemento": "zzz",
+      "id": 27
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "f",
+      "formaPagamento": "dinheiro",
+      "id": 28
+    },
+    {
+      "endereco": "ccxc",
+      "numero": "czxcz",
+      "complemento": "xczxcz",
+      "formaPagamento": "dinheiro",
+      "id": 29
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "v",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Chrono Trigger",
+          "descricao_oferta": "Viaje até o passado esquecido, o futuro distante e o fim dos tempos. Começa agora uma grande aventura para salvar o planeta…",
+          "valor": 31.9,
+          "quantidade": 1
+        },
+        {
+          "id": 6,
+          "img": {
+            "url": "/assets/ofertas/6/img1.jpg"
+          },
+          "titulo": "Final Fantasy 7",
+          "descricao_oferta": "Em Midgar, uma cidade controlada pela megacorporação Shinra Inc., o Reator Mako No. 1 foi destruído pelo grupo rebelde AVALANCHE.AVALANCHE foi criado secretamente para iniciar uma rebelião contra a Shinra Inc",
+          "valor": 19.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 30
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "jk",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 1,
+          "img": {
+            "url": "/assets/ofertas/1/img1.jpg"
+          },
+          "titulo": "Celeste",
+          "descricao_oferta": "Ajude Madeline a enfrentar seus demônios internos em sua jornada até o topo da Montanha Celeste.",
+          "valor": 29.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 31
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "jk",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 1,
+          "img": {
+            "url": "/assets/ofertas/1/img1.jpg"
+          },
+          "titulo": "Celeste",
+          "descricao_oferta": "Ajude Madeline a enfrentar seus demônios internos em sua jornada até o topo da Montanha Celeste.",
+          "valor": 29.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 32
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "b",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Chrono Trigger",
+          "descricao_oferta": "Viaje até o passado esquecido, o futuro distante e o fim dos tempos. Começa agora uma grande aventura para salvar o planeta…",
+          "valor": 31.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 33
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "b",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Chrono Trigger",
+          "descricao_oferta": "Viaje até o passado esquecido, o futuro distante e o fim dos tempos. Começa agora uma grande aventura para salvar o planeta…",
+          "valor": 31.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 34
+    },
+    {
+      "endereco": "Rua aristides Jofre",
+      "numero": "515",
+      "complemento": "b",
+      "formaPagamento": "dinheiro",
+      "itens": [
+        {
+          "id": 4,
+          "img": {
+            "url": "/assets/ofertas/4/img1.jpg"
+          },
+          "titulo": "Chrono Trigger",
+          "descricao_oferta": "Viaje até o passado esquecido, o futuro distante e o fim dos tempos. Começa agora uma grande aventura para salvar o planeta…",
+          "valor": 31.9,
+          "quantidade": 1
+        }
+      ],
+      "id": 35
+    }
+  ]
+}

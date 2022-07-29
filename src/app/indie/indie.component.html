@@ -1,0 +1,40 @@
+<div class="container">
+
+  <div class="secao">
+    <h3 class="text-center">Plataforma, Aventura, Mundo aberto e mais!</h3>
+    <h5 class="text-center">Conheça as melhores ofertas de jogos Indies:</h5>
+  </div>
+
+  <hr />
+  <div *ngFor = "let oferta of ofertas">
+    <div class="row">
+      <div class="col-md-4">
+        <img [src]="oferta.imagens[0].url" class="img-fluid"/>
+      </div>
+  
+      <div class="col-md-8">
+        <div class="row">
+          <h4>{{oferta.titulo}}</h4>
+        </div>
+  
+        <div class="row">
+          <h5>{{oferta.descricao_oferta}}</h5>
+        </div>
+  
+        <div class="row">
+          <p>Anunciado por: <b>{{oferta.anunciante}}</b></p>
+        </div>
+  
+        <div class="row" style="margin-bottom: 15px;">
+          <b>{{oferta.valor | currency:'BRL'}}</b>
+        </div>
+  
+        <div>
+          <button [routerLink]="['/oferta', oferta.id]" class="btn btn-outline-dark">Ver oferta</button>
+        </div>
+      </div>
+    </div>
+    <hr />
+  </div>
+</div>
+
